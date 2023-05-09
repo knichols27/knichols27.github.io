@@ -1,0 +1,101 @@
+body{background-color:#000000;
+    background-image:
+    linear-gradient(to bottom,#FFFFFF,#8b0a0a );
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+    Sans-Serif;
+}
+
+header{background-color: #ce5e5e;
+      background-image:url(https://www.evolvingtable.com/wp-content/uploads/2021/05/5-Frozen-Fruit-Smoothies-copy.jpg);
+      background-repeat: no-repeat;
+      background-position: right;
+      text-align:left;
+      height:60px;
+      padding-top:19px;
+      color: #050505;
+
+}
+
+nav{font-weight: bold;
+   float:left;
+   width:170px;
+   padding:20px;
+
+}
+
+nav a:link{color:#edf1f1;}
+nav a:visited{color:#190053;}
+nav a:hover{color:#eb4747;}
+
+
+
+nav ul{list-style-type:none;
+      margin:5;
+      padding: left 5px;
+      font-size:1.3em;
+}
+
+
+
+h1{margin-bottom: 5px;
+  margin-top:5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Verdana,
+  Sans-Serif;
+}
+
+h2{color: #000000;
+  text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+ Sans-Serif, Times;
+
+}
+
+dt{color: #000000;
+
+}
+
+footer{font-size:60%;
+      padding:20px;
+      margin-left:170px;
+      background-color:#FFFFFF;
+      font-style:italic;
+      text-align:center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+}
+
+#contact{font: size 100%;
+
+
+}
+
+#wrapper{margin-left:auto;
+        margin-right:auto;
+        width:90%;
+        background-color:#b9e762;
+        min-width: 980px;
+        max-width:2038px;
+        box-shadow:3px 3px 3px #9b4c4c;
+
+}
+
+
+main{padding-top:1px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:30px;
+    margin-left:190px;
+    display:block;
+    background-color:white;
+
+}
+
+dt{padding: 10px;}
+
+table{border:solid 1px #7c0057;
+     width:80%;
+     border-spacing:0;
+}
+
