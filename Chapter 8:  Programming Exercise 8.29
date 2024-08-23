@@ -1,5 +1,5 @@
 public class Ex08.09 {
-* X player won */
+ * X player won */
     private static final String USER_X_ID = "X";
     private static final String USER_O_ID = "O";
     static final String IN_PROMPT_ROW = "Enter a row (0, 1, or 2) for player";
