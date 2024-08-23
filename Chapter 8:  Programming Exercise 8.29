@@ -1,4 +1,4 @@
-Ex08.09 {
+public class Ex08.09 {
 * X player won */
     private static final String USER_X_ID = "X";
     private static final String USER_O_ID = "O";
