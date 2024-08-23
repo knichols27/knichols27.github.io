@@ -1,4 +1,4 @@
-public class Exercise06_31 {
+public class Ex06.31 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a credit card number as a long integer: ");
