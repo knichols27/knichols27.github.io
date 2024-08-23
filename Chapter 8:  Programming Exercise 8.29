@@ -1,7 +1,5 @@
 package chapter_08;
-
 import java.util.*;
-
 /**
  * ***8.9 (Game: play a tic-tac-toe game) In a game of tic-tac-toe, two players
  * take turns marking an available cell in a 3 * 3 grid with their respective
