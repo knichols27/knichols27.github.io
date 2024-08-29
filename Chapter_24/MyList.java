@@ -1,6 +1,6 @@
-		package ch_24 exercise 24_03;
+package ch_24.exercise24_03;
 
-    public interface MyList<E> extends java.lang.Iterable<E> {
+public interface MyList<E> extends java.lang.Iterable<E> {
     /**
      * Add a new element at the end of this list
      */
