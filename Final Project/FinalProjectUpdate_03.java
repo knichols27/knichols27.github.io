@@ -42,3 +42,14 @@ class CheckingAccount extends Account {
     public CheckingAccount(String customerName, int customerID) {
         super(customerName, customerID);
     }
+
+    public void writeCheck(double amount) {
+        withdraw(amount);
+        System.out.println("Check written for: $" + amount);
+    }
+}
+//Saving account
+class SavingsAccount extends Account {
+    public SavingsAccount(String customerName, int customerID) {
+        super(customerName, customerID);
+    }
