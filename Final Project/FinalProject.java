@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Scanner;
-//Account class
+//Bank Account ATM Management System class
 class Account {
     private String customerName;
     private int customerID;
@@ -55,7 +55,7 @@ class SavingsAccount extends Account {
     }
 
     public void compoundInterest() {
-        double interest = getBalance() * 0.03; // Adjust the interest rate as needed
+        double interest = getBalance() * 0.05; // Adjust the interest rate as needed
         deposit(interest);
         System.out.println("Interest added: $" + interest);
     }
@@ -92,7 +92,7 @@ public class BankingApp {
         Bank bank = new Bank();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the Simple Banking App!");
+        System.out.println("Welcome to the Smooth Banking App!");
 
         while (true) {
             System.out.println("1. Create Account");
