@@ -1,0 +1,45 @@
+importjavafx.scene.text.Text; 
+importjavafx.stage.Stage; 
+
+publicclassExercise16_17extendsApplication {
+    ScrollBar[] scrollBars = newScrollBar[4];
+    Color mColor = Color.RED;
+    @Override
+    publicvoidstart(Stage primaryStage) throwsException {
+
+        Text text = newText("Show Colors");
+
+        // Bottom pane 
+        Label[] labels = newLabel[4]; 
+        String[] stringLabels = {"Red", "Green", "Blue", "Opacity"};
+
+        GridPane gridPane = newGridPane(); 
+        gridPane.setHgap(10); 
+        gridPane.setVgap(5); 
+        gridPane.setPadding(newInsets(5)); 
+
+        gridPane.setAlignment(Pos.CENTER); 
+        for(inti = 0; i < scrollBars.length; i++) { 
+           scrollBars[i] = newScrollBar(); 
+           scrollBars[i].setMin(0); 
+           if(!stringLabels[i].equals("Opacity")) {
+             scrollBars[i].setMax(255); 
+             scrollBars[i].setValue(255);
+           } else{ 
+               scrollBars[i].setMax(1); 
+               scrollBars[i].setValue(1);
+           }
+           labels[i] = newLabel(stringLabels[i]); 
+           scrollBars[i].valueProperty() 
+                   .addListener((obser, old, newV) -> text.setFill(getColor);
+           gridPane.add(labels[i], 0, i); gridPane.add(scrollBars[i], 1, i); 
+           
+       } 
+       StackPane stackPane = newStackPane(text); 
+       stackPane.setPrefSize(300, 200); 
+       BorderPane borderPane = newBorderPane(stackPane); 
+       borderPane.setBottom(gridPane);
+
+       primaryStage.setScene(newScene(borderPane)); 
+       
+          
